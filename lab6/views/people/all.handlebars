@@ -1,0 +1,11 @@
+<div class="container">
+	<h2>All people</h2>
+	<div class="well well-sm blockquote">
+	<ul>
+		{{#each people}}
+			<li>Name: <a href="/people/{{id}}">{{name}}</a></li>
+			<li>ID:{{id}}</li>
+		{{/each}}
+	</ul>
+	</div>
+</div>

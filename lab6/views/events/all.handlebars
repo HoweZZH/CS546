@@ -1,0 +1,11 @@
+<article class="eventsList">
+	<h2>All events</h2>
+	<div class="well well-sm blockquote">
+	<ul>
+		{{#each allEvents}}	
+			<li>Event Title: <a href="/events/{{id}}">{{title}}</a></li>
+			<li>Event ID:{{id}}</li>
+		{{/each}}
+	</ul>
+	</div>
+</article>

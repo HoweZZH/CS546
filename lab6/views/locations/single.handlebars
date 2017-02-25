@@ -1,0 +1,16 @@
+<article class="location">
+	<div class="well well-sm blockquote">
+	<h3>Location Name: <strong>{{location.name}}</strong></h3>
+	<h4>Location ID: {{location.id}}</h4>
+	<h4>Address: {{location.location}}</h4>
+	</div>
+	<div class="well well-sm blockquote">
+    <h4>events</h4>
+	<ul>
+	{{#each eventsAtLocation}}
+		<li><a href="../events/{{id}}" title="">{{title}}</a></li>
+	{{/each}}
+    </ul>
+	</div>
+</article> 
+

@@ -1,0 +1,17 @@
+<article class="event">
+	<div class="well well-sm blockquote">
+	<h3>Event Name: <strong>{{event.title}}</strong></h3>
+	<h4>Event ID: {{event.id}}</h4>
+	<h4>Start Time: {{event.startTime}}</h4>
+	<h4>Description: {{event.description}}</h4>
+	<h4>Location: <a href="../locations/{{event.location}}">{{locationName}}</a></h4>
+	</div>
+	<div class="well well-sm blockquote">
+	<h4>Attendees: </h4>
+	<ul>
+	{{#each people}}
+		<li><a href="../people/{{id}}" title="">{{name}}</a></li>
+	{{/each}}
+	</ul>
+	</div>
+</article>

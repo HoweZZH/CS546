@@ -1,0 +1,39 @@
+[
+    {
+    "education":{
+        "highschool":"Handan Sizhong",
+        "undergrad": "Yanshan University"
+    },
+    "hobbies":{
+        "Indoors":["reading","watching movies","video gaming","listen to music"],
+        "Outdoors":["Basketball","Skiing","Table tennis"]
+    },
+    "classes":{
+        "CS600":{
+            "name":"Advanced Algorithm Design and Implementation",
+            "professor":"Reza Peyrovian",
+            "description":"Design, implementation, and asymptotic time and space analysis of advanced algorithms, as well as analyzing worst-case and average-case complexity of algorithms. Students will be expected to run experiments to test the actual performance of the algorithms on sample inputs. Introduction to NP-complete problems and approximation algorithms."
+        },
+        "CS546":{
+            "name":"Web Programming",
+            "professor":"Philip Barresi",
+            "description":"This course will provide students with a first strong approach of internet programming. It will give the basic knowledge on how the Internet works and how to create advanced web sites by the use of script languages, after learning the basics of HTML. The course will teach the students how to create a complex global site through the creation of individual working modules, giving them the skills required in any business such as proper team work and coordination between groups."
+        },
+        "CPE593":{
+            "name":"Data Structures and Algorithms",
+            "professor":"Dov Kruger",
+            "description":"Data Structures and algorithms is an intensive introduction to brilliant solutions to classical problems with wide application across computer programming."
+        },
+        "CS561":{
+            "name":"Database Management Systems I",
+            "professor":"Dr. Ruth B. Schwartz",
+            "description":"Introduction to the design and querying of relational databases.  Topics include:  relational schemas, keys and foreign key references, relational algebra (as an introduction to SQL), SQL in depth, Entity-Relationship (ER) database design, translating from ER models to relational schemas and from relational schemas to ER model, functional dependencies, and normalization."
+        },
+        "CS570":{
+            "name":"Intro Program/Data Struct/Algor",
+            "professor":"David Pfeffer",
+            "description":"The course introduces students to the C and C++ programming languages, rudimentary programming concepts, and basic and intermediate data structures and algorithms. No prior programming experience is assumed."
+            }
+    }
+    }
+]

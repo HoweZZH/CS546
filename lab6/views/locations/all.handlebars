@@ -1,0 +1,11 @@
+<article class="locationsList">
+	<h2>All locations</h2>
+	<div class="well well-sm blockquote">
+	<ul>
+		{{#each allLocations}}
+			<li>Location Name: <a href="/locations/{{id}}">{{name}}</a></li>
+			<li>Address: {{location}}</li>
+		{{/each}}
+	</ul>
+	</div>
+</article>
