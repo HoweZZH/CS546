@@ -1,0 +1,27 @@
+{{#if error}}
+<div style="color:#ee0000;">
+    <span>{{message}}</span>
+</div>
+{{/if}}
+<div class="container">
+  <div class="jumbotron">
+    <h1>CS 546 Lab 10!</h1> 
+    <p>This is the CS 546 Lab 10</p> 
+  </div> 
+</div>
+<form action="/login" method="post">
+    <label for="username">Username:</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="username" type="text" class="form-control" name="username" placeholder="username">
+    </div>
+    <label for="password">Password:</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <div>
+    <button type="submit" class="btn btn-default">Log In</button>
+    </div>
+  </form>
+

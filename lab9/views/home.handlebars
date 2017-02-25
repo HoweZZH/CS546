@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-sm-9">
+        {{#each todoItems}}
+        <div class="panel panel-default">
+            <a href="/{{id}}" >Title: {{title}}</a>
+            <h2>Summary:</h2>
+            <p>{{{summary}}}</p>
+        </div>
+        {{/each}}
+    </div>
+    <div id="new-content">
+    </div>
+    <div class="col-sm-3">
+        <a href="/new" class="btn btn-primary" role="button">Create new</a>
+    </div>
+</div>
+

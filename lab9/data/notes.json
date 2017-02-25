@@ -1,0 +1,26 @@
+{
+    "notes": [
+        {
+            "id": 1,
+            "title": "Example note 1",
+            "done": false,
+            "due_date": "1990-04-01",
+            "summary": "This is a summary 1",
+            "body": "This is a body 1"
+        },
+        {
+            "id": 2,
+            "title": "Example note 2",
+            "due_date": "1993-04-01",
+            "summary": "This is a summary 2",
+            "body": "This is a body 2 "
+        },
+        {
+            "id": 3,
+            "title": "Example note 3",
+            "due_date": "1993-04-02",
+            "summary": "This is a summary 3",
+            "body": "This is a body 3"
+        }
+    ]
+}
