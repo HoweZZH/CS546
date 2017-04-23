@@ -1,0 +1,23 @@
+Applied Bootstrap and jQuery to create the dynamic and responsive web pages
+
+Manipulated emails and classified them into different buckets with color tags using Gmail API
+
+Implemented text processing algorithm in JavaScript to extract dates from emails and categorize them in web pages
+
+filter overdue emails 
+Implemented a website to access email and filter overdue emails from Gmail through Gmail API 
+
+Constructed the website back end framework based on MVC concept
+
+Designed the website UI by HTML5, CSS, jQuery, JavaScript
+
+Used git revision control system to track progress and collaborate with team
+
+developed a scraper for an actual freelance gig where the 
+Developed a web crawler to scrape data from Stack Overflow to grab new questions in Python and 
+stored the scraped data in MongoDB.
+
+deserializing
+PostgreSQL
+
+Design and Implemented access control for user-shared data in Django view layer using Django ORM based on MVC concept. 

@@ -3,7 +3,7 @@ const MongoClient=require("mongodb").MongoClient;
 const settings={
     mongoConfig:{
         serverUrl:"mongodb://localhost:27017/",
-        daabase:"lab3"
+        database:"lab3"
     }
 };
 
@@ -21,3 +21,5 @@ return _connection;
 };
 
 module.exports = connectDb;
+
+
