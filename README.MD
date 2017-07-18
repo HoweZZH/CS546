@@ -2,4 +2,4 @@
 
 2016 fall CS 546 Web Programming
 
-Javascript(frontend) + NodeJS(backend)
+HTML, CSS, Javascript(frontend) + NodeJS(backend)
