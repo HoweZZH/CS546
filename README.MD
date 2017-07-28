@@ -2,7 +2,11 @@
 
 2016 fall CS 546 Web Programming
 
-HTML, CSS, Javascript(frontend) + NodeJS(backend)
+template engine: handlebars
+server router: NodeJS express package
+database API: nodejs mongodb driver api
+
+update lab requirements, hard work, cheers~
 ## CS-546 Lab 1
 
 ### An Intro to Node 
